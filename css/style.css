@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color:antiquewhite;
+}
+
+nav {
+    background-color: #212121;
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	z-index: 2;
+}
+
+a {
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    list-style-type: none;
+}
+
+.menu .menu_item .menu_link {
+    font-weight: 200;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_link:hover,
+a:hover {
+    color: #e6bcbc;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 32px;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+}
+
+.header {
+    position: relative;
+}
+
+
+.label {
+    display: block;
+    margin: 0 auto;
+
+    margin-top: 18px;
+    margin-bottom: 32px;
+
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    padding-top: 5px;
+    font-weight: 300;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title_block {
+    font-weight: 100;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.descr_block {
+    font-weight: 100;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.land_img {
+    width: 100%;
+}
+
+
+.enter .enter_name {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    line-height: 30px;
+}
+
+.enter .enter_profile {
+    font-weight: 200;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.education .education_subtitle1 {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #353333;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.education .education_subtitle2 {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #353333;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.hard-skills .hard-skills_item {
+    min-height: 80px;
+    background-color: rgb(255, 222, 179);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hard-skills {
+    margin-bottom: 50px;
+}
+
+.projects .projects_item {
+    min-height: 80px;
+    background-color: rgb(255, 222, 179);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.projects .project_bonus {
+    min-height: 80px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.soft-skills .soft-skills_item {
+    min-height: 80px;
+    background-color: rgb(255, 222, 179);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.soft-skills {
+    margin-bottom: 50px;
+}
+
+.s_img {
+    width: 500px;
+}
+
+.contact_block {
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    color: #222222;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 30px;
+}
