@@ -154,6 +154,16 @@ a:hover {
     margin-bottom: 50px;
 }
 
+.experience .experience_item { 
+    min-height: 80px; 
+    background-color: rgb(255, 222, 179); 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    font-weight: 500; 
+    font-size: 20px; 
+    text-align: center; 
+} 
+
 .projects .projects_item {
     min-height: 80px;
     background-color: rgb(255, 222, 179);
